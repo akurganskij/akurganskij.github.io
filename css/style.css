@@ -1,0 +1,209 @@
+.navbar{
+    background-color: #21065b;
+}
+.nav-link, .navbar-brand{
+    color: #f4f4f4;
+    cursor: pointer;
+}
+.nav-link{
+    margin-right: 1em !important;
+}
+.nav-link:hover{
+    background-color: #f4f4f4;
+    color: #21065b;
+}
+.navbar-collapse{
+    justify-content: flex-end;
+}
+.navbar-toggler{
+    background-color: #fff !important;
+}
+
+.header{
+    background-image: url('http://images.pexels.com/photos/924824/pexels-photo-924824.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2');
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    background-blend-mode: color;
+    background-color: rgba(42, 2, 90, 0.2);
+}
+.overlay{
+    position: absolute;
+    min-height: 100%;
+    min-width: 100%;
+    left: 0;
+    top: 0;
+    background-color: rbga(244,244,244,0.79);
+}
+.description{
+    position: absolute;
+    top: 30%;
+    margin: auto;
+    padding: 2em;
+}
+
+.description h1{
+    color: #21065b;
+}
+.description p{
+    color: rgb(172, 206, 202);
+    font-size: 20px;
+    width: 50%;
+    line-height: 1.5;
+}
+.description button{
+    border: 1px solid #21065b;
+    background-color: #21065b;
+    color: rgb(179, 185, 182);
+}
+.about{
+    margin-left: 4em;
+    margin-right: 4em;
+    margin-bottom: 4em;
+    padding: 1em;
+    position: relative;
+}
+
+.about h1{
+    color: #21065b;
+    margin: 2em;
+}
+.about img{
+    display: block;
+    margin-left: auto;
+    width: 100%;
+    height: min-content;
+    border-radius: 50%;
+}
+.about span{
+    display: block;
+    margin-left: auto;
+    color: #888;
+    position: absolute;
+    left: 115px;
+}
+.about .desc{
+    padding: 2em;
+    border-left: 4px solid #10828c;
+}
+.about .desc h3{
+    color: #10828c;
+}
+.about .desc p{
+    line-height: 2;
+    color: #888;
+}
+
+.portfolio{
+    margin: 4em 0;
+    position: relative;
+}
+.portfolio h1{
+    color:#21065b;
+    margin: 2em;
+}
+.portfolio img{
+    height: 15rem;
+    width: 100%;
+    margin: 1em;
+}
+.blog{
+    margin: 4em 0;
+    position: relative;
+}
+.blog h1{
+    color: #21065b;
+    margin: 2em;
+}
+.blog .card{
+    box-shadow: 0 0 20px #ccc;
+    margin-top: 1em;
+}
+.blog .card img{
+    width: 100%;
+    height: 12em;
+}
+.blog .card-title{
+    color: #21065b;
+}
+.blog .card-text{
+    overflow: hidden;
+    text-overflow: ellipsis;
+    height: 2em;
+}
+.blog .card:hover .card-text{
+    overflow: visible;
+    height: auto;
+}
+.blog .card-body{
+    padding: 1em;
+}
+.team{
+    margin: 4em 0;
+    position: relative;
+}
+.team h1{
+    color: #21065b;
+    margin: 2em;
+}
+.team .item{
+    position: relative;
+}
+.team .des{
+    background: #21065b;
+    color: #fff;
+    text-align: center;
+    border-bottom-left-radius: 93%;
+    transition: .3s ease-in-out;
+}
+.team .item:hover .des{
+    height: 100%;
+    background: #21065b7d;
+    position: absolute;
+    width: 89%;
+    padding: 5em;
+    top: 0;
+    border-bottom-left-radius: 0;
+}
+.contact-form{
+    margin: 6em 0;
+    position: relative;
+    color: #888;
+}
+.contact-form h1{
+    padding: 2em 1px;
+    color: #21065b;
+}
+.contact-form .right{
+    max-width: 600px;
+}
+.contact-form .right .btn-secondary{
+    background: #21065b;
+    color: #fff;
+    border: 0;
+}
+.contact-form .right .form-control::placeholder{
+    color: #888;
+    font-size: 16px;
+}
+.rnd .num-inp{
+    margin: 1em;
+    border-radius: 10px;
+    height: 40px;
+    width: auto;
+}
+.rnd .btn{
+    margin: 1em;
+    color: #fff;
+    background-color: #21065b;
+    border: 2px solid #21065b;
+    border-radius: 5px;
+}
+.rnd h2{
+    margin-left: 2em;
+    color: #21065b;
+}
+.rnd h1{
+    color: #21065b;
+    vertical-align: middle;
+}
