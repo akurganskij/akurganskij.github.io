@@ -38,18 +38,20 @@
 .description{
     position: absolute;
     top: 30%;
-    margin: auto;
+    margin: 0;
     padding: 2em;
 }
 
-.description h1{
+.description h3{
     color: #21065b;
 }
 .description p{
     color: rgb(172, 206, 202);
     font-size: 20px;
-    width: 50%;
     line-height: 1.5;
+    margin-right: 10%;
+    padding-right: 10%;
+    
 }
 .description button{
     border: 1px solid #21065b;
@@ -206,4 +208,7 @@
 .rnd h1{
     color: #21065b;
     vertical-align: middle;
+}
+.clock{
+    background-image: url(../images/clock.jpg);
 }
