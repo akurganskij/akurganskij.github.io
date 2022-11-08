@@ -1,12 +1,12 @@
 let first_ticks = true;
 let first_tickm = true;
 let first_tickh = true;
-$(document).ready(function(){
-    $('.header').height($(window).height());
-});
-$(document).ready(function(){
-  let navigationHeight = $(".navbar").innerHeight();
-  $('.about').height($(window).height() - navigationHeight);
+$(document).ready(function(){    
+    if(document.getElementById("descr").offsetHeight >= $(window).height()/2){
+      alert(String(document.getElementById("descr").offsetHeight));
+      $('.header').height(document.getElementById("descr").offsetHeight * 1.4);
+    }
+    else $('.header').height($(window).height());
 });
 $(document).ready(function(){
     $('a.nav-link').click(function() {
