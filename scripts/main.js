@@ -53,9 +53,6 @@ function clr_btn_click(e){
 }
 
 async function page_loaded(){
-  let nowh = new Date().getHours();
-  let nowm = new Date().getMinutes();
-  let nows = new Date().getSeconds();
   let clock = document.getElementById("clock");
   let mainctx = clock.getContext("2d");
   let secs = document.createElement("canvas");
@@ -71,7 +68,6 @@ async function page_loaded(){
   draw(mins, imgm, 2);
   draw(hs, imgh, 3);
   mainctx.clearRect(0, 0, 225, 225);
-  document.getElementById("time").textContent = String(nowh) + ":" + String(nowm) + ":" + String(nows);
   mainctx.drawImage(mins, 0, 0, 225, 225);
   mainctx.drawImage(hs, 0, 0, 225, 225);
   mainctx.drawImage(secs, 0, 0, 225, 225);
