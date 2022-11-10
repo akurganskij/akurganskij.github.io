@@ -3,7 +3,6 @@ let first_tickm = true;
 let first_tickh = true;
 $(document).ready(function(){    
     if(document.getElementById("descr").offsetHeight >= $(window).height()/2){
-      alert(String(document.getElementById("descr").offsetHeight));
       $('.header').height(document.getElementById("descr").offsetHeight * 1.4);
     }
     else $('.header').height($(window).height());
