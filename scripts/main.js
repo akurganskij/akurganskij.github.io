@@ -2,11 +2,20 @@ let first_ticks = true;
 let first_tickm = true;
 let first_tickh = true;
 $(document).ready(function(){    
+  $('.header').width($(window).width());
     if(document.getElementById("descr").offsetHeight >= $(window).height()/2){
       $('.header').height(document.getElementById("descr").offsetHeight * 1.4);
     }
     else $('.header').height($(window).height());
 });
+function page_resized(){
+  $('.header').width($(window).width());
+  if(document.getElementById("descr").offsetHeight >= $(window).height()/2){
+    $('.header').height(document.getElementById("descr").offsetHeight * 1.4);
+  }
+  else $('.header').height($(window).height());
+  return false;
+}
 $(document).ready(function(){
     $('a.nav-link').click(function() {
       let navigationHeight = $(".navbar").innerHeight();
